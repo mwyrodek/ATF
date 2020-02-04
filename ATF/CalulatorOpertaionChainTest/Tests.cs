@@ -7,14 +7,13 @@ using NUnit.Framework;
 
 namespace CalulatorOpertaionChainTest
 {
-    [TestFixture]
+    [TestFixture, Parallelizable(ParallelScope.Children)]
     public class Tests
     {
 
          private ICalculatorBuilder _sut;
 
-        //[OneTimeSetUp]
-        [SetUp]
+        [OneTimeSetUp]
         public void SetUP()
         {
             _sut = new CalculatorBuilder(new BasicMath());
