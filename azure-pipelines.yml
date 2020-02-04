@@ -27,6 +27,8 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+
+
 - task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
@@ -34,4 +36,4 @@ steps:
       **\*test*.dll
       !**\*TestAdapter.dll
       !**\obj\**
-    searchFolder: '$(System.DefaultWorkingDirectory)\bin\${buildConfiguration}'
+    searchFolder: '$(System.DefaultWorkingDirectory)\bin\$(buildConfiguration)'
