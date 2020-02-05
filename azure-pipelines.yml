@@ -33,7 +33,7 @@ steps:
   inputs:
     testSelector: 'testAssemblies'
     testAssemblyVer2: |
-      **\*test*.dll
-      !**\*TestAdapter.dll
-      !**\obj\**
-    searchFolder: '$(System.DefaultWorkingDirectory)\**\bin\$(buildConfiguration)'
+      **\$(buildConfiguration)\*test*.dll
+      !**\$(buildConfiguration)\*TestAdapter.dll
+      !**\$(buildConfiguration)\obj\**
+    searchFolder: '$(System.DefaultWorkingDirectory)'
