@@ -24,27 +24,27 @@ Note the app code is working - but that doesn't mean it doesn't have issues :) (
 
 Repo in Github:
 
-Fork this repo https://github.com/mwyrodek/ATF
-Login to [Azure DevOps](https://dev.azure.com/)
-Create a free public project
-go to pipeline
-select GitHub 
-log in to your GitHub
-select your project
-Azure should automatically find YAML file in the repo
-Click run 
-Project is green but in reality, no test where run.
-Have fun fixing it
+1. Fork this repo https://github.com/mwyrodek/ATF
+2. Login to [Azure DevOps](https://dev.azure.com/)
+3. Create a free public project
+4. go to pipeline
+4. select GitHub 
+5.Log in to your GitHub
+6. select your project
+7. Azure should automatically find YAML file in the repo
+8. Click run 
+9. Project is green but in reality, no test where run.
+10. Have fun fixing it :)
 
 All in AzureDevOps:
-Login to [Azure DevOps](https://dev.azure.com/):
-Create a free public project.
-Go to repos
-import repo: https://github.com/mwyrodek/ATF
-Go to pipeline
-Select azure git as a source.
-Azure should automatically find YAML file in repo
-Click run 
-Project is green but in reality, no test where run.
-Have fun fixing it
+1. Login to [Azure DevOps](https://dev.azure.com/):
+2. Create a free public project.
+3. Go to repos
+4. import repo: https://github.com/mwyrodek/ATF
+5. Go to pipeline
+6. Select azure git as a source.
+7. Azure should automatically find YAML file in repo
+8. Click run 
+9. Project is green but in reality, no test where run.
+10. Have fun fixing it :)
 
