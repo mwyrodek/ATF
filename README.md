@@ -1,5 +1,4 @@
-# ATF
-Automation Trail Fixer
+# ATF _Automation Trail - Fixer_
 
 This project is a simple application with a few test project which all has different issues in the test, making them running in CI.
 
