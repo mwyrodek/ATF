@@ -1,4 +1,5 @@
 # ATF _Automation Trail - Fixer_
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X7X5144XE)
 
 This project is a simple application with a few test project which all has different issues in the test, making them running in CI.
 
